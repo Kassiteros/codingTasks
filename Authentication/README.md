@@ -67,14 +67,14 @@ Let’s begin by creating a JWT token for each of our users:
 
 <img src="/Images/image1.png" width="100%" alt="Image1">
 
-Take a copy of the token produced by the POST request.
+2. Take a copy of the token produced by the POST request.
 
 
 ```json
 "token": "eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoidXNlciIsInBhc3N3b3JkIjoicGFzc3dvcmRfdXNlciIsImF1dGhvcml6YXRpb24iOmZhbHNlfQ.5H89Sc73mwZhZ-u0XnJIDV5WzGOHIsqz_rbvnB-MYa8"
 ```
 
-Repeat these steps for our user named “admin”. Use a similar POST operation in Postman but change the body to the following ensuring you keep it typed as “raw” and of type “JSON”. Have a look at the image below for clarification:
+3. Repeat these steps for our user named “admin”. Use a similar POST operation in Postman but change the body to the following ensuring you keep it typed as “raw” and of type “JSON”. Have a look at the image below for clarification:
 
 ```json
 {
@@ -86,7 +86,7 @@ Repeat these steps for our user named “admin”. Use a similar POST operation 
 
 <img src="/Images/image2.png" width="100%" alt="Image1">
 
-Once again take a copy of the token produced:
+4. Once again take a copy of the token produced:
 
 
 ```json
@@ -95,29 +95,29 @@ Once again take a copy of the token produced:
 
 Now each user has a generated JWT token we can verify them to see if they will give each user access to the backend server:
 
-In postman create the following GET request but ensure it is made to the URL /resource at localhost like this, http://localhost:8001/resource. Click on Authorization under the URL string, and enter the token produced for user “admin”. Have a look at the image below for clarification:
+1. In postman create the following GET request but ensure it is made to the URL /resource at localhost like this, http://localhost:8001/resource. Click on Authorization under the URL string, and enter the token produced for user “admin”. Have a look at the image below for clarification:
 
 <img src="/Images/image3.png" width="100%" alt="Image1">
 
-If successful, authorised to the server by the token that has been passed. you should see the message displayed below “**Hello, admin ! Your JSON Web Token has been verified.**” Notice our checking code has extracted the user name from the payload.
+2. If successful, authorised to the server by the token that has been passed. you should see the message displayed below “**Hello, admin ! Your JSON Web Token has been verified.**” Notice our checking code has extracted the user name from the payload.
 
-Try changing the first character in the token. You should see that you have invalidated it and the postman GET request should respond with ““err”: “Bad JWT!”
+3. Try changing the first character in the token. You should see that you have invalidated it and the postman GET request should respond with ““err”: “Bad JWT!”
 
-Try the token produced for “user” also to see this works, gives access, and our javascript extracts the correct username from the token.
+4. Try the token produced for “user” also to see this works, gives access, and our javascript extracts the correct username from the token.
 
 Finally let’s test user access to a theoretical “server resource”.
 
-Make a GET request for the user “admin” to the following URL in Postman, http://localhost:8001/admin_resource (make sure that you have returned your token to its correct state if you tested your access by corrupting it) ! Have a look at the image below for clarification:
+1. Make a GET request for the user “admin” to the following URL in Postman, http://localhost:8001/admin_resource (make sure that you have returned your token to its correct state if you tested your access by corrupting it) ! Have a look at the image below for clarification:
 
 <img src="/Images/image4.png" width="100%" alt="Image1">
 
-You should see the message: “msg”: “Success ! You have full Admin rights to this resource !”
+2. You should see the message: “msg”: “Success ! You have full Admin rights to this resource !”
 
-Now make the same GET request using the JWT for “user”. Have a look at the image below for clarification:
+3. Now make the same GET request using the JWT for “user”. Have a look at the image below for clarification:
 
 <img src="/Images/image5.png" width="100%" alt="Image1">
 
-You will see the following message: “msg”: “Your JWT was verified, but you are not an admin user !”
+4. You will see the following message: “msg”: “Your JWT was verified, but you are not an admin user !”
 
 
 ## Summary
