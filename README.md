@@ -1,5 +1,11 @@
 # codingTasks
-![Dragonfly](path/to/the/image/file.jpg) style="width: 30%"
+![Dragonfly](/Images/Dragonfly.jpg) class="resized-image"
+
+<style>
+  .resized-image {
+    width: 30%;  /* or height: 200px;  You can adjust these values */
+  }
+</style>
  
 This repository is designed to allow me to showcase the work and the learning in the HyperionDev (CoGrammar) boot camp that I will shortly be completing.
 
