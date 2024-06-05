@@ -58,9 +58,9 @@ Let’s begin by creating a JWT token for each of our users:
 
 
 {
-   "username": "user",
-   "password": "password_user",
-   "authorization": "false"
+    "username": "user",
+    "password": "password_user",
+    "authorization": "false"
 }
 
 <img src="/Images/image1.png" width="14%" alt="Image1">
