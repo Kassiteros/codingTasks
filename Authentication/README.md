@@ -6,7 +6,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Running\ the\ Code](#Running\the\Code)
+- [Demonstration](#demonstration)
 - [Summary](#summary)
 - [Credits](#credits)
 
@@ -36,7 +36,7 @@ If your server has started successfully you should see the following message in 
 
 !Image2
 
-## Running the Code
+## Demonstration
 
 In this section we use our code to help us create a JWT token and then illustrate how we use this token to access a server and server resources. 
 
