@@ -64,7 +64,7 @@ Let’s begin by creating a JWT token for each of our users:
 }
 ```
 
-<img src="/Images/image1.png" width="14%" alt="Image1">
+<img src="/Images/image1.png" width="100%" alt="Image1">
 
 Take a copy of the token produced by the PUT request.
 
