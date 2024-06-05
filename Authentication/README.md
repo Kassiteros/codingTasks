@@ -54,7 +54,7 @@ Let’s begin by creating a JWT token for each of our users:
 
 In Postman create a POST request to http://localhost:8001/login with the following body. Be sure to include the header Content-Type: application/json to describe the body’s content type accurately. Have a look at the image below for clarification:
 
-```json
+
 {
    "username": "user",
    "password": "password_user",
@@ -65,13 +65,13 @@ In Postman create a POST request to http://localhost:8001/login with the followi
 
 Take a copy of the token produced by the PUT request.
 
-JSON
+
 
 "token": "eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoidXNlciIsInBhc3N3b3JkIjoicGFzc3dvcmRfdXNlciIsImF1dGhvcml6YXRpb24iOmZhbHNlfQ.5H89Sc73mwZhZ-u0XnJIDV5WzGOHIsqz_rbvnB-MYa8"
 AI-generated code. Review and use carefully. More info on FAQ.
 Repeat these steps for our user named “admin”. Use a similar PUT operation in Postman but change the body to the following ensuring you keep it typed as “raw” and of type “JSON”. Have a look at the image below for clarification:
 
-JSON
+
 
 {
    "username": "admin",
@@ -83,7 +83,7 @@ AI-generated code. Review and use carefully. More info on FAQ.
 
 Once again take a copy of the token produced:
 
-JSON
+
 
 "token": "eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6InBhc3N3b3JkX2FkbWluIiwiYXV0aG9yaXphdGlvbiI6dHJ1ZX0.RcbRi4g6EKrnqJiYJ9c59VlAJzSKNksApx1930JlfkA"
 AI-generated code. Review and use carefully. More info on FAQ.
