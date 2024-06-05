@@ -1,4 +1,5 @@
 # codingTasks
+![Alt text for the image](path/to/the/image/file.jpg){ width="30%" }  ```
  
 This repository is designed to allow me to showcase the work and the learning in the HyperionDev (CoGrammar) boot camp that I will shortly be completing.
 
