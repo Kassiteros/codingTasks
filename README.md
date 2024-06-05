@@ -1,6 +1,6 @@
 # codingTasks
 
-<img src="/Images/Dragonfly.jpg" width="15%" alt="Dragonfly">
+<img src="/Images/Dragonfly.jpg" width="7%" alt="Dragonfly">
 
 This repository is designed to allow me to showcase the work and the learning in the HyperionDev (CoGrammar) boot camp that I will shortly be completing.
 
