@@ -1,5 +1,5 @@
 # codingTasks
-![Dragonfly](/Images/Dragonfly.jpg) class="resized-image"
+![Dragonfly](/Images/Dragonfly.jpg)class="resized-image"
 
 <style>
   .resized-image {
