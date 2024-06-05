@@ -113,22 +113,30 @@ Now make the same GET request using the JWT for “user”. Have a look at the i
 
 You will see the following message: “msg”: “Your JWT was verified, but you are not an admin user !”
 
-Summary
+
+## Summary
+
 You can see that from the following endpoints:
 
-/login – we checked a POSTed username and password, and produces a JWT.
-/resource – checked the JWT in the auth header and displayed a message with the username.
-/admin_resource – checked the JWT, and displayed a message if the token was verified and the token holder is an admin.
-Credits
+   /login – we checked a POSTed username and password, and produces a JWT.
+   
+   /resource – checked the JWT in the auth header and displayed a message with the username.
+   
+   /admin_resource – checked the JWT, and displayed a message if the token was verified and the token holder is an admin.
+
+
+## Credits
+
 This project was created by Alex Haidar in May 2024 as part of the HyperionDev / CoGrammar bootcamp.
 
 Thanks are extended to:
 
-HyperionDev
-CoGrammar
+   HyperionDev
+   CoGrammar
+
 These online resources underpin this this coding task:
 
-JSON Web Tokens
-JSON Web Token Introduction
-Online JWT Decoder
-Get Started with JSON Web Tokens
+   JSON Web Tokens
+   JSON Web Token Introduction
+   Online JWT Decoder
+   Get Started with JSON Web Tokens
