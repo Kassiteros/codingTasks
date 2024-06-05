@@ -22,7 +22,7 @@ It is a short piece of code but I hope it demonstrates some good coding principl
 
 Please do examine the code and if you want to run it then there are clear instructions below. The installation instructions will explain how to create the components you need. You will of course require some disk space to download the files in this repository and also need space for a backend Express server and the (large) node_modules folder it requires and which the installation instructions will help you to create. You will also need the Postman app. If you don’t have it already, it is a useful utility you can download from [HERE](https://www.postman.com/jp/downloads/) !
 
-<br>
+
 ## Installation
 
 To begin with, we will download the code files we need and then create a backend Express server on which they will run:
