@@ -4,7 +4,7 @@
 ## Authentication with JWT
 
 ## Table of Contents
-- Introduction
+- [Introduction](#introduction)
 - Installation
 - Running the Code
 - Summary
@@ -137,6 +137,7 @@ Thanks are extended to:
 These online resources underpin this this coding task:
 
 - JSON Web Tokens - https://jwt.io/
-- JSON Web Token Introduction
-- Online JWT Decoder
-- Get Started with JSON Web Tokens
+- JSON Web Token Introduction - https://jwt.io/introduction/
+- Online JWT Decoder - https://webtoolseasy.com/tools/jwt-decoder
+- Get Started with JSON Web Tokens - https://auth0.com/learn/json-web-tokens
+
