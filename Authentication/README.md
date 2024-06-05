@@ -28,7 +28,7 @@ Please do examine the code and if you want to run it then there are clear instru
 ## Installation
 [Back to Table of Contents](#table-of-contents)
 
-To begin with, we will download the code files we need and then create a backend Express server on which they will run:
+To begin with, we will download the code files we need and then create a backend Express server on which this code will run:
 
 1. Open a command editor (cmd) and create a local folder (mkdir) on your local drive named AuthenticationJWT
 
