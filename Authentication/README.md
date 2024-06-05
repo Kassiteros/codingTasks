@@ -7,11 +7,10 @@ Authentication with JWT
 Table of Contents
 
 	Introduction
-	Installation
-	Running the Code
+ 	Installation
+  	Running the Code
 	Summary
 	Credits
-
 
 Introduction
 
