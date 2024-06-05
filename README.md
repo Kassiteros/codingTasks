@@ -1,5 +1,5 @@
 # codingTasks
-![Alt text for the image](/Images/Dragonfly.jpg){ width="30%" }
+![Dragonfly](/Images/Dragonfly.jpg){ width=\"30%\" }
  
 This repository is designed to allow me to showcase the work and the learning in the HyperionDev (CoGrammar) boot camp that I will shortly be completing.
 
