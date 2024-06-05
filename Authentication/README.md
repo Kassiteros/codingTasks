@@ -56,12 +56,13 @@ Let’s begin by creating a JWT token for each of our users:
 
 1. In Postman create a POST request to http://localhost:8001/login with the following body. Be sure to include the header Content-Type: application/json to describe the body’s content type accurately. Have a look at the image below for clarification:
 
-
+```json
 {
     "username": "user",
     "password": "password_user",
     "authorization": "false"
 }
+```
 
 <img src="/Images/image1.png" width="14%" alt="Image1">
 
