@@ -1,4 +1,6 @@
 <h6>05/06/2024</h6>
+[Bootcamp Portfolio Results](https://www.hyperiondev.com/portfolio/AH24020013978/)
+
 # T25 - Build Your Brand: GitHub
 
 ## Authentication with JWT
@@ -34,8 +36,6 @@ To begin with, we will download the code files we need and then create a backend
 
 If your server has started successfully you should see the following message in your command shell: **_Now listening at http://localhost:8001_**
 
-!Image1
-
 
 
 ## Demonstration
@@ -50,20 +50,20 @@ We will simulate the frontend server requests being made to the backend by using
 
 Remember, we have already created and started our backend server and it is “listening” on port 8001, http://localhost:8001, so this will help us define the base of our URL to Postman.
 
-We have two users defined, each with their own password and secret which you will see in the array which holds them in server.js. The users are, just for clarity, named “user” and “admin” ;-) 
+We have two users defined, each with their own password and secret which you will see in the array which holds them in server.js. The users are, just for clarity, named “**user**” and “**admin**” ;-) 
 
 Let’s begin by creating a JWT token for each of our users:
 
-In Postman create a POST request to http://localhost:8001/login with the following body. Be sure to include the header Content-Type: application/json to describe the body’s content type accurately. Have a look at the image below for clarification:
+1. In Postman create a POST request to http://localhost:8001/login with the following body. Be sure to include the header Content-Type: application/json to describe the body’s content type accurately. Have a look at the image below for clarification:
 
 
-{
+_{
    "username": "user",
    "password": "password_user",
    "authorization": "false"
-}
+}_
 
-!Image3
+<img src="/Images/image1.png" width="14%" alt="Image1">
 
 Take a copy of the token produced by the PUT request.
 
