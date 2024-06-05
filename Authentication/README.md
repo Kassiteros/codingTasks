@@ -1,18 +1,16 @@
 <h6>05/06/2024</h6>
-T25 - Build Your Brand: GitHub
+# T25 - Build Your Brand: GitHub
 
+## Authentication with JWT
 
-Authentication with JWT
+## Table of Contents
+- Introduction
+- Installation
+- Running the Code
+- Summary
+- Credits
 
-Table of Contents
-
-	Introduction
- 	Installation
-  	Running the Code
-	Summary
-	Credits
-
-Introduction
+## Introduction
 
 This Bootcamp task was designed to build our understanding of the Java Web Token (JWT) and how to create, issue and use a JWT for access to a server and to specific server resources.
 
@@ -20,8 +18,9 @@ It is a short piece of code but I hope it demonstrates some good coding principl
 
 Please do examine the code and if you want to run it then there are clear instructions below. The installation instructions will explain how to create the components you need. You will of course require some disk space to download the files in this repository and also need space for a backend Express server and the (large) node_modules folder it requires and which the installation instructions will help you to create. You will also need the Postman app. If you don’t have it already, it is a useful utility you can download from HERE !
 
+!Image1
 
-Installation
+## Installation
 
 To begin with, we will download the code files we need and then create a backend Express server on which they will run
 
@@ -35,8 +34,9 @@ To start the server, type the following command: npm run start
 
 If your server has started successfully you should see the following message in your command shell: Now listening at http://localhost:8001
 
+!Image2
 
-Running the Code
+## Running the Code
 
 In this section we use our code to help us create a JWT token and then illustrate how we use this token to access a server and server resources. 
 
@@ -54,97 +54,81 @@ Let’s begin by creating a JWT token for each of our users:
 
 In Postman create a POST request to http://localhost:8001/login with the following body. Be sure to include the header Content-Type: application/json to describe the body’s content type accurately. Have a look at the image below for clarification:
 
-	{
+```json
+{
    "username": "user",
    "password": "password_user",
    "authorization": "false"
 }
 
-
+!Image3
 
 Take a copy of the token produced by the PUT request.
 
+JSON
 
 "token": "eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoidXNlciIsInBhc3N3b3JkIjoicGFzc3dvcmRfdXNlciIsImF1dGhvcml6YXRpb24iOmZhbHNlfQ.5H89Sc73mwZhZ-u0XnJIDV5WzGOHIsqz_rbvnB-MYa8"
-
-
+AI-generated code. Review and use carefully. More info on FAQ.
 Repeat these steps for our user named “admin”. Use a similar PUT operation in Postman but change the body to the following ensuring you keep it typed as “raw” and of type “JSON”. Have a look at the image below for clarification:
+
+JSON
 
 {
    "username": "admin",
    "password": "password_admin",
    "authorization": "true"
 }
-
-
-
+AI-generated code. Review and use carefully. More info on FAQ.
+!Image4
 
 Once again take a copy of the token produced:
 
+JSON
+
 "token": "eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6InBhc3N3b3JkX2FkbWluIiwiYXV0aG9yaXphdGlvbiI6dHJ1ZX0.RcbRi4g6EKrnqJiYJ9c59VlAJzSKNksApx1930JlfkA"
-
-
+AI-generated code. Review and use carefully. More info on FAQ.
 Now each user has a generated JWT token we can verify them to see if they will give each user access to the backend server:
 
 In postman create the following GET request but ensure it is made to the URL /resource at localhost like this, http://localhost:8001/resource. Click on Authorization under the URL string, and enter the token produced for user “admin”. Have a look at the image below for clarification:
 
+!Image5
 
+If successful, authorised to the server by the token that has been passed. you should see the message displayed below “Hello, admin ! Your JSON Web Token has been verified.” Notice our checking code has extracted the user name from the payload.
 
-
-
-
-If successful, authorised to the server by the token that has been passed. you should see the message displayed below "Hello, admin ! Your JSON Web Token has been verified." Notice our checking code has extracted the user name from the payload. 
-
-Try changing the first character in the token. You should see that you have invalidated it and the postman GET request should respond with “"err": "Bad JWT!"
+Try changing the first character in the token. You should see that you have invalidated it and the postman GET request should respond with ““err”: “Bad JWT!”
 
 Try the token produced for “user” also to see this works, gives access, and our javascript extracts the correct username from the token.
 
-
 Finally let’s test user access to a theoretical “server resource”.
-	
+
 Make a GET request for the user “admin” to the following URL in Postman, http://localhost:8001/admin_resource (make sure that you have returned your token to its correct state if you tested your access by corrupting it) ! Have a look at the image below for clarification:
 
+!Image6
 
-
-You should see the message: "msg": "Success ! You have full Admin rights to this resource !"
+You should see the message: “msg”: “Success ! You have full Admin rights to this resource !”
 
 Now make the same GET request using the JWT for “user”. Have a look at the image below for clarification:
 
+!Image7
 
-
-
-You will see the following message:  "msg": "Your JWT was verified, but you are not an admin user !"
-
+You will see the following message: “msg”: “Your JWT was verified, but you are not an admin user !”
 
 Summary
-	
 You can see that from the following endpoints:
 
-● /login – we checked a POSTed username and password, and produces a
-JWT.
-
-● /resource – checked the JWT in the auth header and displayed a message
-with the username.
-
-● /admin_resource – checked the JWT, and displayed a message if the token
-was verified and the token holder is an admin.
-
-
-
+/login – we checked a POSTed username and password, and produces a JWT.
+/resource – checked the JWT in the auth header and displayed a message with the username.
+/admin_resource – checked the JWT, and displayed a message if the token was verified and the token holder is an admin.
 Credits
-
 This project was created by Alex Haidar in May 2024 as part of the HyperionDev / CoGrammar bootcamp.
 
 Thanks are extended to:
 
-HyperionDev - https://www.hyperiondev.com/
-CoGrammar - https://skills.cogrammar.com/
-
-
+HyperionDev
+CoGrammar
 These online resources underpin this this coding task:
 
-JSON Web Tokens - https://jwt.io/
-JSON Web Token Introduction - https://jwt.io/introduction/
-Online JWT Decoder - https://webtoolseasy.com/tools/jwt-decoder
-Get Started with JSON Web Tokens - https://auth0.com/learn/json-web-tokens
-
+JSON Web Tokens
+JSON Web Token Introduction
+Online JWT Decoder
+Get Started with JSON Web Tokens
