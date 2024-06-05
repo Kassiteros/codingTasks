@@ -12,6 +12,8 @@
 - [Summary](#summary)
 - [Credits](#credits)
 
+
+
 ## Introduction
 
 This Bootcamp task was designed to build our understanding of the Java Web Token (JWT) and how to create, issue and use a JWT for access to a server and to specific server resources.
