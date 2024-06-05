@@ -69,9 +69,10 @@ Let’s begin by creating a JWT token for each of our users:
 Take a copy of the token produced by the PUT request.
 
 
-
+```json
 "token": "eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoidXNlciIsInBhc3N3b3JkIjoicGFzc3dvcmRfdXNlciIsImF1dGhvcml6YXRpb24iOmZhbHNlfQ.5H89Sc73mwZhZ-u0XnJIDV5WzGOHIsqz_rbvnB-MYa8"
-AI-generated code. Review and use carefully. More info on FAQ.
+```
+
 Repeat these steps for our user named “admin”. Use a similar PUT operation in Postman but change the body to the following ensuring you keep it typed as “raw” and of type “JSON”. Have a look at the image below for clarification:
 
 
