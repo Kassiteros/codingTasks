@@ -10,7 +10,7 @@
 - [Summary](#summary)
 - [Credits](#credits)
 
-## Introduction {#introduction}
+## Introduction
 
 This Bootcamp task was designed to build our understanding of the Java Web Token (JWT) and how to create, issue and use a JWT for access to a server and to specific server resources.
 
@@ -18,23 +18,25 @@ It is a short piece of code but I hope it demonstrates some good coding principl
 
 Please do examine the code and if you want to run it then there are clear instructions below. The installation instructions will explain how to create the components you need. You will of course require some disk space to download the files in this repository and also need space for a backend Express server and the (large) node_modules folder it requires and which the installation instructions will help you to create. You will also need the Postman app. If you don’t have it already, it is a useful utility you can download from [HERE](https://www.postman.com/jp/downloads/) !
 
-!Image1
+
 
 ## Installation
 
-To begin with, we will download the code files we need and then create a backend Express server on which they will run
+To begin with, we will download the code files we need and then create a backend Express server on which they will run:
 
-Open a command editor (cmd) and create a local folder (mkdir) on your local drive named AuthenticationJWT
+1. Open a command editor (cmd) and create a local folder (mkdir) on your local drive named AuthenticationJWT
 
-Navigate to the newly created folder with this command: cd AuthenticationJWT
+2. Navigate to the newly created folder with this command: cd AuthenticationJWT
 
-To install the Express server, this will create the node_modules folder, type the following command: npm install express body-parser
+3. To install the Express server, this will create the node_modules folder, type the following command: npm install express body-parser
 
-To start the server, type the following command: npm run start 
+4. To start the server, type the following command: npm run start 
 
 If your server has started successfully you should see the following message in your command shell: Now listening at http://localhost:8001
 
-!Image2
+!Image1
+
+
 
 ## Demonstration
 
