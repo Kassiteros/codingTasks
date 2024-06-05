@@ -34,9 +34,11 @@ To begin with, we will download the code files we need and then create a backend
 
 2. Navigate to the newly created folder with this command: **cd AuthenticationJWT**
 
-3. To install the Express server, this will create the node_modules folder, type the following command: **npm install express body-parser**
+3. Download all the files in this repository, /codingTasks/Authentication, to the folder you just created **AuthenticationJWT**. You do not need to copy README.md !
 
-4. To start the server, type the following command: **npm run start** 
+4. To install the Express server, this will create the node_modules folder, type the following command: **npm install express body-parser**
+
+5. To start the server, type the following command: **npm run start** 
 
 If your server has started successfully you should see the following message in your command shell: **_Now listening at http://localhost:8001_**
 
