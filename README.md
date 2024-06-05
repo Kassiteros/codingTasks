@@ -1,6 +1,6 @@
 # codingTasks
 
-<img src="/Images/Dragonfly.jpg" style="float: left; margin-right: 10px;" alt="Dragonfly">
+<img src="/Images/Dragonfly.jpg" width="20%" style="float: left; margin-right: 10px;" alt="Dragonfly">
 <p>
   Your text goes here. It will wrap around the image. If the text is longer than the height of the image, it will continue to flow below the image.
 </p>
