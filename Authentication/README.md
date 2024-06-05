@@ -26,6 +26,7 @@ Please do examine the code and if you want to run it then there are clear instru
 
 
 ## Installation
+[Back to Table of Contents](#table-of-contents)
 
 To begin with, we will download the code files we need and then create a backend Express server on which they will run:
 
@@ -42,6 +43,7 @@ If your server has started successfully you should see the following message in 
 
 
 ## Demonstration
+[Back to Table of Contents](#table-of-contents)
 
 In this section we use our code to help us create a JWT token and then illustrate how we use this token to access a server and server resources. 
 
@@ -123,6 +125,7 @@ Finally let’s test user access to a theoretical “server resource”.
 
 
 ## Summary
+[Back to Table of Contents](#table-of-contents)
 
 You can see that from the following endpoints:
 
@@ -134,6 +137,7 @@ You can see that from the following endpoints:
 
 
 ## Credits
+[Back to Table of Contents](#table-of-contents)
 
 This project was created by Alex Haidar in May 2024 as part of the HyperionDev / CoGrammar bootcamp.
 
