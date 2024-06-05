@@ -6,7 +6,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Running%20the%20Code](#Running the Code)
+- [Running\ the\ Code](#Running\the\Code)
 - [Summary](#summary)
 - [Credits](#credits)
 
