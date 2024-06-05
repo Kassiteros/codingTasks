@@ -5,10 +5,10 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- Installation
-- Running the Code
-- Summary
-- Credits
+- [Installation](installation)
+- [Running the Code](Running the Code)
+- [Summary](Summary)
+- [Credits](Credits)
 
 ## Introduction
 
@@ -16,7 +16,7 @@ This Bootcamp task was designed to build our understanding of the Java Web Token
 
 It is a short piece of code but I hope it demonstrates some good coding principles and also shows some of my “learning curve” which I’m happy to demonstrate. I did work as a programmer early on in my IT career and enjoyed it and felt I had a good “instinct” for a simple solution and a readable, well commented piece of code. It is nice now, after a long foray in IT management, to step back into a technical role and get “down and dirty” with a powerful language with such wide scope, frontend to backend taking in MongoDB on its way ;-) 
 
-Please do examine the code and if you want to run it then there are clear instructions below. The installation instructions will explain how to create the components you need. You will of course require some disk space to download the files in this repository and also need space for a backend Express server and the (large) node_modules folder it requires and which the installation instructions will help you to create. You will also need the Postman app. If you don’t have it already, it is a useful utility you can download from HERE !
+Please do examine the code and if you want to run it then there are clear instructions below. The installation instructions will explain how to create the components you need. You will of course require some disk space to download the files in this repository and also need space for a backend Express server and the (large) node_modules folder it requires and which the installation instructions will help you to create. You will also need the Postman app. If you don’t have it already, it is a useful utility you can download from [HERE](https://www.postman.com/jp/downloads/) !
 
 !Image1
 
