@@ -132,11 +132,11 @@ This project was created by Alex Haidar in May 2024 as part of the HyperionDev /
 Thanks are extended to:
 
 - [HyperionDev](https://www.hyperiondev.com/)
-- CoGrammar
+- [CoGrammar](https://skills.cogrammar.com/)
 
 These online resources underpin this this coding task:
 
-- JSON Web Tokens
+- JSON Web Tokens - https://jwt.io/
 - JSON Web Token Introduction
 - Online JWT Decoder
 - Get Started with JSON Web Tokens
