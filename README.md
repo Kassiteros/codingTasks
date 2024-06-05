@@ -1,12 +1,6 @@
 # codingTasks
 
-<img src="/Images/Dragonfly.jpg" width="20%" style="float: left; margin-right: 10px;" alt="Dragonfly">
-<p>
-  Your text goes here. It will wrap around the image. If the text is longer than the height of the image, it will continue to flow below the image.
-</p>
-
-
-<img src="/Images/Dragonfly.jpg" width="30%" alt="Dragonfly">
+<img src="/Images/Dragonfly.jpg" width="15%" alt="Dragonfly">
 
 This repository is designed to allow me to showcase the work and the learning in the HyperionDev (CoGrammar) boot camp that I will shortly be completing.
 
