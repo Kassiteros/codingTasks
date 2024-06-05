@@ -26,13 +26,13 @@ To begin with, we will download the code files we need and then create a backend
 
 1. Open a command editor (cmd) and create a local folder (mkdir) on your local drive named AuthenticationJWT
 
-2. Navigate to the newly created folder with this command: cd AuthenticationJWT
+2. Navigate to the newly created folder with this command: **cd AuthenticationJWT**
 
-3. To install the Express server, this will create the node_modules folder, type the following command: npm install express body-parser
+3. To install the Express server, this will create the node_modules folder, type the following command: **npm install express body-parser**
 
-4. To start the server, type the following command: npm run start 
+4. To start the server, type the following command: **npm run start** 
 
-If your server has started successfully you should see the following message in your command shell: Now listening at http://localhost:8001
+If your server has started successfully you should see the following message in your command shell: **_Now listening at http://localhost:8001_**
 
 !Image1
 
