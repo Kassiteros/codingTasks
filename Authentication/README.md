@@ -5,10 +5,10 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Installation](installation)
-- [Running the Code](Running the Code)
-- [Summary](Summary)
-- [Credits](Credits)
+- [Installation](#installation)
+- [Running the Code](#Running the Code)
+- [Summary](#summary)
+- [Credits](#credits)
 
 ## Introduction
 
