@@ -133,9 +133,9 @@ You can see that from the following endpoints:
 
    /login – we checked a POSTed username and password, and produces a JWT.
    
-   /resource – checked the JWT in the auth header and displayed a message with the username.
+   /resource – we checked the JWT in the auth header and displayed a message with the username.
    
-   /admin_resource – checked the JWT, and displayed a message if the token was verified and the token holder is an admin.
+   /admin_resource – we checked the JWT, and displayed a message if the token was verified and the token holder is an admin.
 
 
 ## Credits
