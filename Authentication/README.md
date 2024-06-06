@@ -105,7 +105,7 @@ Now each user has a generated JWT token we can verify them to see if they will g
 
 <img src="/Images/image3.png" width="100%" alt="Image1">
 
-2. If successful, authorised to the server by the token that has been passed. you should see the message displayed below “**Hello, admin ! Your JSON Web Token has been verified.**” Notice our checking code has extracted the user name from the payload.
+2. If successful, the user is authorised to the server by the token that has been passed, you should see the message displayed below “**Hello, admin ! Your JSON Web Token has been verified.**” Notice our checking code has extracted the user name from the payload.
 
 3. Try changing the first character in the token. You should see that you have invalidated it and the postman GET request should respond with ““err”: “Bad JWT!”
 
