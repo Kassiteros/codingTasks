@@ -131,11 +131,11 @@ Finally let’s test user access to a theoretical “server resource”.
 
 You can see that from the following endpoints:
 
-   /login – we checked a POSTed username and password, and produces a JWT.
+   /login – we checked a POSTed username and password, and produced a JWT.
    
    /resource – we checked the JWT in the auth header and displayed a message with the username.
    
-   /admin_resource – we checked the JWT, and displayed a message if the token was verified and the token holder is an admin.
+   /admin_resource – we checked the JWT, and displayed a message if the token was verified and the token holder was an admin.
 
 
 ## Credits
