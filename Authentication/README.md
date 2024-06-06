@@ -20,7 +20,7 @@
 
 This Bootcamp task was designed to build our understanding of the Java Web Token (JWT) and how to create, issue and use a JWT for access to a server and to specific server resources.
 
-It is a short piece of code but I hope it demonstrates some good coding principles and also shows some of my “learning curve” which I’m happy to demonstrate. I did work as a programmer early on in my IT career and enjoyed it and felt I had a good “instinct” for a simple solution and a readable, well commented piece of code. It is nice now, after a long foray in IT management, to step back into a technical role and get “down and dirty” with a powerful language with such wide scope, frontend to backend taking in MongoDB on its way ;-) 
+It is a short piece of code but I hope it demonstrates some good coding principles and also shows some of my “learning curve” which I’m happy to share ;-) ! I did work as a programmer early on in my IT career and enjoyed it and felt I had a good “instinct” for a simple solution and a readable, well commented piece of code. It is nice now, after a long foray in IT management, to step back into a technical role and get “down and dirty” with a powerful language with such wide scope, frontend to backend taking in MongoDB on its way ;-) 
 
 Please do examine the code and if you want to run it then there are clear instructions below. The installation instructions will explain how to create the components you need. You will of course require some disk space to download the files in this repository and also need space for a backend Express server and the (large) node_modules folder it requires and which the installation instructions will help you to create. You will also need the Postman app. If you don’t have it already, it is a useful utility you can download from [HERE](https://www.postman.com/jp/downloads/) !
 
@@ -105,7 +105,7 @@ Now each user has a generated JWT token we can verify them to see if they will g
 
 <img src="/Images/image3.png" width="100%" alt="Image1">
 
-2. If successful, authorised to the server by the token that has been passed. you should see the message displayed below “**Hello, admin ! Your JSON Web Token has been verified.**” Notice our checking code has extracted the user name from the payload.
+2. If successful, the user is authorised to the server by the token that has been passed, you should see the message displayed below “**Hello, admin ! Your JSON Web Token has been verified.**” Notice our checking code has extracted the user name from the payload.
 
 3. Try changing the first character in the token. You should see that you have invalidated it and the postman GET request should respond with ““err”: “Bad JWT!”
 
@@ -133,9 +133,9 @@ You can see that from the following endpoints:
 
    /login – we checked a POSTed username and password, and produces a JWT.
    
-   /resource – checked the JWT in the auth header and displayed a message with the username.
+   /resource – we checked the JWT in the auth header and displayed a message with the username.
    
-   /admin_resource – checked the JWT, and displayed a message if the token was verified and the token holder is an admin.
+   /admin_resource – we checked the JWT, and displayed a message if the token was verified and the token holder is an admin.
 
 
 ## Credits
