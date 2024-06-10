@@ -1,0 +1,29 @@
+/* Style our buttons to be raised and have shadow and curved corners. Make 'em nice ;-) */
+
+.button {
+  background-color: lightgray;
+  color: green;
+  border: solid;
+  border-color: darkgray;
+  border-radius: 12px; /* Adjust as needed */
+  padding: 5px 8px; /* Adjust as needed */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px; /* Adjust as needed */
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.19);
+  margin-left: 10px;
+}
+
+/* Style out input buttons */
+.button.button-delete {
+  color: red
+}
+
+/* Style the "Please Note" text above the input fields which appear when update button clicked */
+h4 {
+  color: red;
+  font-size: 11px;
+}
