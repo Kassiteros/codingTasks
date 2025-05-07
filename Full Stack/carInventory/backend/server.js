@@ -1,6 +1,6 @@
 // server.js
 
-// Setup routes here to handle HTTP requests.
+// Setup routes here to handle all HTTP requests.
 
 
 // Load environment variables from .env, in this case our MongoDB password !
